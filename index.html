@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
+    ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans:wght@400;700&family=Pacifico&family=Roboto:wght@400;700&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+            <div class="container">
+                <h1 class="navbar-brand m-0 section-tittle fs-2">Moto cross ADVTR</h1>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                    <ul class="nav nav-pills d-block d-md-flex">
+                        <li class="nav-item fw-bold">
+                            <a href="#sobre-restaurante" class="nav-link">
+                                <i class="bi bi-house-door me-1"></i>
+                                Sobre nós
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#eventos" class="nav-link" >
+                                <i class="bi bi-card-text me-1"></i>
+                                Eventos
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#cardapio" class="nav-link">
+                                <i class="bi bi-calendar-check me-1"></i>
+                                Pacotes
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#fale-conosco" class="nav-link" >
+                                <i class="bi bi-chat-left-text me-1"></i>
+                                Fale conosco
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-restaurante">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="images/slides/slide1.jpg">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="images/slides/slide2.jpg">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="images/slides/slide3.jpg">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <buttton type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></buttton>
+                    <buttton type="button" data-bs-target="#carousel" data-bs-slide-to="1"></buttton>
+                    <buttton type="button" data-bs-target="#carousel" data-bs-slide-to="2"></buttton>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 ">
+                            <img src="images/img-sobre.jpg" class="d-block w-100 rounded" alt="Interior do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-tittle">Sobre <span class="text-colored">nós</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni non doloribus eveniet architecto, eligendi, optio commodi reprehenderit in dolorum autem molestias consequatur ea provident eum amet omnis nostrum, maxime quam!</p>
+                            <h3 class="section-tittle">Como <span class="text-colored">funciona</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae culpa ducimus veritatis eum laboriosam? Veritatis, soluta esse non aut sapiente eveniet fugit, commodi quaerat ratione sed adipisci. Omnis, sunt ad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center">Nossos <span class="text-colored">eventos</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="/images/eventos/corridainter.jpg" alt="corrida de moto" class="d-block w-100 rounded mb-3">
+                        <h3 class="section-tittle text-colored fs-4">
+                            Corridas
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero asperiores debitis pariatur. Officia omnis odio doloremque esse molestiae amet aliquam ratione in est eius consectetur perspiciatis possimus, praesentium iusto labore!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/images/eventos/solo.jpg" alt="motocross" class="d-block w-100 rounded mb-3">
+                    <h3 class="section-tittle text-colored fs-4">
+                        Individual
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero asperiores debitis pariatur. Officia omnis odio doloremque esse molestiae amet aliquam ratione in est eius consectetur perspiciatis possimus, praesentium iusto labore!</p>
+                    </div>
+                    <div class="col-md-4">
+                    <img src="/images/eventos/quadriciculo.jpg" alt="Corrida quadriciculo" class="d-block w-100 rounded mb-3">
+                    <h3 class="section-tittle text-colored fs-4">
+                        Quadriciculo
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero asperiores debitis pariatur. Officia omnis odio doloremque esse molestiae amet aliquam ratione in est eius consectetur perspiciatis possimus, praesentium iusto labore!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center mb-5">
+                        Nosssos <span class="text-colored">pacotes</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pacote-corrida" class=" fw-bold text-start nav-link text-colored active">Pacote corrida</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#equipamentos" class=" fw-bold text-start nav-link text-colored">Equipamentos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#fotos-videos" class=" fw-bold text-start nav-link text-colored mb-3">Fotos e videos</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="pacote-corrida">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="images/pacotes/sports-733607_1280.jpg" alt="Corrida">
+                                        <h5 class="text-colored fw-bold mt-2">Corrida em grupo</h5>
+                                        <s>R$ 799,00</s> <span class="ps-1 fw-bold">R$549,90</span>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="images/pacotes/motorcycle-2129120_1280.jpg" alt="Moto">
+                                        <h5 class="text-colored fw-bold mt-2">Percurso individual</h5>
+                                        <s>R$ 599,00</s> <span class="ps-1 fw-bold">R$359,90</span>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="images/pacotes/quadriciculo.jpg" alt="quadriciculo">
+                                        <h5 class="text-colored fw-bold mt-2">Quariciculo</h5>
+                                        <s>R$679,00</s> <span class="ps-1 fw-bold">R$549,90</span>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="equipamentos">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" id="equip-completo" src="images/pacotes/completo.jpg" alt="motocross">
+                                        <h5 class="text-colored fw-bold mt-2">Equipamento completo</h5>
+                                        <s>R$299,00</s> <span class="ps-1 fw-bold">R$199,90</span>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="images/pacotes/cap-oculos.jpg" alt="capacete e oculos">
+                                        <h5 class="text-colored fw-bold mt-2">Capacete + oculos</h5>
+                                        <s>R$199,90</s> <span class="ps-1 fw-bold">R$99,90</span>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="tab-pane" id="fotos-videos">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="images/eventos/corridainter.jpg" alt="Prato de entrada">
+                                            <h5 class="text-colored fw-bold mt-2">Pacote com fotos</h5>
+                                            <span class="ps-1 fw-bold">+ R$49,90</span>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="images/eventos/solo.jpg" alt="Prato de entrada">
+                                            <h5 class="text-colored fw-bold mt-2">Pacote com videos</h5>
+                                            <span class="ps-1 fw-bold">+ R$59,90</span>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="images/eventos/corridainter.jpg" alt="Prato de entrada">
+                                            <h5 class="text-colored fw-bold mt-2">Pacote com fotos e videos</h5>
+                                            <span class="ps-1 fw-bold">+ R$79,90</span>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center">Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="fw-bold text-colored form-label">Nome</label>
+                                <input type="text" id="nome" name="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="fw-bold text-colored form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="fw-bold text-colored form-label">Telefone (Opcional)</label>
+                                <input type="tel" id="telefone" name="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="fw-bold text-colored form-label">Mensagem</label>
+                                <textarea class="form-control" id="mensagem" name="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-tittle fs-4 text-colored">
+                                Redes sociais
+                            </h3>
+                            <ul class="social-link">
+                                <li class="fs-5 ">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-tittle fs-4 text-colored">
+                                Endereço
+                            </h3>
+                            <p>Rua teste exemplo, Rua 145 - Boostrap - São paulo - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="PluginJquery/jquery.mask.min.js"></script>
+    <script src="PluginJquery/jquery.validate.min.js"></script>
+    <script src="PluginJquery/messages_pt_BR.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
