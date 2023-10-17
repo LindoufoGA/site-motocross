@@ -27,8 +27,8 @@ body {
 }
 
 
-#sobre-restaurante,
-#cardapio {
+#sobre,
+#pacotes {
     background-color: #d3dff1;
 }
 
@@ -57,12 +57,10 @@ body {
 
 .carousel-item img {
     width: 100%;
-    height: 600px;
+    height: 500px;
 }
 
-#equip-completo {
-    height: 400px;
-}
+
 
 @media (max-width: 767px) {
     .carousel-item img {
